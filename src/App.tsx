@@ -1,14 +1,12 @@
 import './App.css'
-import { Placeholder } from './components/Placeholder/Placeholder'
+import { SubscriptionForm } from './components/SubscriptionForm/SubscriptionForm'
 
 function App() {
   return (
     <>
-      <div className="mainContainer">
-        <div className="form">
-          <h1>Fok Led</h1>
-        </div>
-        <div className="selectPlan">
+      <div className='main-container'>
+        <SubscriptionForm />
+        <div className='select-plan'>
           <h1>Fok Ivan</h1>
         </div>
       </div>

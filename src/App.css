@@ -1,27 +1,19 @@
 #root {
   width: 100%;
-  min-height: 100vh;
+  padding: 1em 3em;
 }
-.mainContainer{
+
+.main-container {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 100vh;
-  background-color: var(--secondary-50);
-}
-.form{
-  display: flex;
-  width: 60%;
-  background-color: var(--secondary-300);
-  color: var(--text-900);
   height: 100%;
 }
-.selectPlan{
+
+.select-plan {
   display: flex;
   width: 40%;
   background-color: var(--primary-300);
   color: var(--text-50);
-  height: 90%;
-  margin: 2%;
   border-radius: 10px;
 }
