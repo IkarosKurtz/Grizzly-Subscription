@@ -1,4 +1,39 @@
+import { IconType } from 'react-icons'
 import './SubscriptionForm.css'
+import { FaCreditCard } from 'react-icons/fa6'
+import { RiBankFill } from 'react-icons/ri'
+import { GiBearHead } from 'react-icons/gi'
+
+interface InputProps {
+  title: string
+  placeholder: string
+}
+
+function Input({ title, placeholder }: InputProps) {
+  return (
+    <div className='input-container'>
+      <p>{title}</p>
+      <input
+        type='text'
+        placeholder={placeholder}
+      />
+    </div>
+  )
+}
+
+interface PaymentCardProps {
+  title: string
+  icon: IconType
+}
+
+function PaymentCard({ title, icon: Icon }: PaymentCardProps) {
+  return (
+    <div className='subscription-form-payment-card-container'>
+      <Icon size={40} />
+      <p>{title}</p>
+    </div>
+  )
+}
 
 export function SubscriptionForm() {
   return (
@@ -13,19 +48,50 @@ export function SubscriptionForm() {
         </p>
       </div>
       <section className='subscription-form'>
-        <p>Enter First and Last Name</p>
         <div>
-          <p>Credit Card</p>
-          <p>Bank Transfer</p>
-          <p>Points</p>
+          <Input
+            title='Enter First & Last Name'
+            placeholder='Enter First & Last Name'
+          />
         </div>
-        <p>Enter Email Address</p>
-        <p>Country</p>
-        <p>Postal Code</p>
+        <div className='subscription-form-payment'>
+          <PaymentCard
+            title='Credit Card'
+            icon={FaCreditCard}
+          />
+          <PaymentCard
+            title='Bank Transfer'
+            icon={RiBankFill}
+          />
+          <PaymentCard
+            title='Grizzly Points'
+            icon={GiBearHead}
+          />
+        </div>
+        <div>
+          <Input
+            title='Enter Email Address'
+            placeholder='Enter Email Address'
+          />
+        </div>
+        <div className='subscription-form-address'>
+          <div>
+            <Input
+              title='Country'
+              placeholder='Country'
+            />
+          </div>
+          <div>
+            <Input
+              title='Postal Code'
+              placeholder='Postal Code'
+            />
+          </div>
+        </div>
       </section>
       <div className='subscription-footer'>
         <button>Cancel</button>
-        <button>Subscribe</button>
+        <button className='accept-button'>Subscribe</button>
       </div>
     </section>
   )
