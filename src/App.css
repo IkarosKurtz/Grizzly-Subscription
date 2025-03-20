@@ -7,18 +7,20 @@
   flex-direction: row;
   width: 100%;
   height: 100vh;
-  background-color: var(--background-800);
+  background-color: var(--secondary-50);
 }
 .form{
   display: flex;
   width: 60%;
   background-color: var(--secondary-300);
+  color: var(--text-900);
   height: 100%;
 }
 .selectPlan{
   display: flex;
   width: 40%;
   background-color: var(--primary-300);
+  color: var(--text-50);
   height: 90%;
   margin: 2%;
   border-radius: 10px;
