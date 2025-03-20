@@ -4,8 +4,14 @@ import { Placeholder } from './components/Placeholder/Placeholder'
 function App() {
   return (
     <>
-      <h1>Grizzly Checkout</h1>
-      <Placeholder />
+      <div className="mainContainer">
+        <div className="form">
+          <h1>Fok Led</h1>
+        </div>
+        <div className="selectPlan">
+          <h1>Fok Ivan</h1>
+        </div>
+      </div>
     </>
   )
 }

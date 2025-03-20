@@ -11,6 +11,68 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --text-50: #f4ecf8;
+--text-100: #e9d9f2;
+--text-200: #d3b4e4;
+--text-300: #bc8ed7;
+--text-400: #a668ca;
+--text-500: #9042bd;
+--text-600: #733597;
+--text-700: #562871;
+--text-800: #3a1b4b;
+--text-900: #1d0d26;
+--text-950: #0e0713;
+
+--background-50: #f4ebf9;
+--background-100: #e8d7f4;
+--background-200: #d2afe9;
+--background-300: #bb88dd;
+--background-400: #a460d2;
+--background-500: #8e38c7;
+--background-600: #712d9f;
+--background-700: #552277;
+--background-800: #391650;
+--background-900: #1c0b28;
+--background-950: #0e0614;
+
+--primary-50: #f3ecf8;
+--primary-100: #e7daf1;
+--primary-200: #d0b4e4;
+--primary-300: #b88fd6;
+--primary-400: #a169c9;
+--primary-500: #8944bb;
+--primary-600: #6e3696;
+--primary-700: #522970;
+--primary-800: #371b4b;
+--primary-900: #1b0e25;
+--primary-950: #0e0713;
+
+--secondary-50: #f1f8ec;
+--secondary-100: #e4f1da;
+--secondary-200: #c8e3b5;
+--secondary-300: #add68f;
+--secondary-400: #91c86a;
+--secondary-500: #76ba45;
+--secondary-600: #5e9537;
+--secondary-700: #477029;
+--secondary-800: #2f4a1c;
+--secondary-900: #18250e;
+--secondary-950: #0c1307;
+
+--accent-50: #ecf8f3;
+--accent-100: #daf1e7;
+--accent-200: #b4e4cf;
+--accent-300: #8fd6b7;
+--accent-400: #69c99f;
+--accent-500: #44bb87;
+--accent-600: #36966c;
+--accent-700: #297051;
+--accent-800: #1b4b36;
+--accent-900: #0e251b;
+--accent-950: #07130e;
+
+
 }
 
 body {
