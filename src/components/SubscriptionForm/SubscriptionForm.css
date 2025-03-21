@@ -3,90 +3,6 @@
   flex-direction: column;
   gap: 2em;
   width: 60%;
-  height: 100%;
-}
-
-.subscription-header {
-  display: flex;
-  flex-direction: column;
-}
-
-.subscription-header>h1 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 0;
-}
-
-.subscription-header span {
-  font-weight: 900;
-  font-size: 2.3rem;
-  color: var(--accent-600);
-  font-style: italic;
-}
-
-.subscription-header p {
-  font-weight: 700;
-  margin: 0;
-  padding-top: 1em;
-  color: color-mix(in srgb, var(--text-800) 90%, transparent 20%);
-}
-
-.subscription-form {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  width: 70%;
-  overflow-y: auto;
-  gap: 1.3em;
-}
-
-.subscription-form-payment {
-  display: flex;
-  gap: 1em;
-  height: 4rem;
-}
-
-.subscription-form-payment-card-container {
-  display: flex;
-  gap: .5em;
-  align-items: center;
-  justify-content: center;
-  padding: 0 1em;
-
-  border: 1px solid var(--secondary-400);
-  border-radius: 10px;
-}
-
-
-.subscription-footer {
-  display: grid;
-  gap: 1em;
-  grid-template-columns: 20% 1fr;
-  grid-template-rows: 1fr;
-  align-self: center;
-  width: 70%;
-}
-
-.subscription-footer button {
-  background-color: var(--primary-200);
-  color: var(--text-900);
-  font-weight: 600;
-  font-size: 1rem;
-  padding: 1em 1.3em;
-  border-radius: 10px;
-  cursor: pointer;
-  border: none;
-  transition: background-color 0.17s ease-in-out, transform 0.17s ease-in-out;
-
-  &:hover {
-    background-color: var(--primary-400);
-    transform: scale(1.02);
-  }
-
-  &:active {
-    background-color: var(--primary-600);
-    transform: scale(1);
-  }
 }
 
 .accept-button {
@@ -105,22 +21,9 @@
   }
 }
 
-.input-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.input-container p {
-  margin: 0;
-  font-size: 1rem;
-}
-
-.input-container input {
-  padding: 1em 1em;
-  background-color: var(--text-100);
-  color: var(--text-900);
-  border-radius: 10px;
-  border: 1px solid var(--text-400);
-  outline: none;
+@media (width <=830px) {
+  .subscription-container {
+    gap: 1em;
+    width: 100%;
+  }
 }
