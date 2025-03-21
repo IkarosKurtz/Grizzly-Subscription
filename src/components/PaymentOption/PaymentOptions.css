@@ -1,0 +1,7 @@
+.select-plan {
+    display: grid;
+    width: 40%;
+    background-color: var(--primary-300);
+    color: var(--text-50);
+    border-radius: 10px;
+  }
