@@ -1,0 +1,40 @@
+.left{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.right{
+    width: 85%;
+    display: flex;
+    flex-direction: column; /* Keeps items in a column */
+    justify-content: center; /* Centers items vertically */
+    gap: 0.2rem; /* Adjust spacing between "Pay" and "Costo" */
+    margin: 0%;
+}
+
+.dot{
+    height: 2rem;
+    width: 2rem;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.grid{
+    background-color: var(--primary-500);
+    height: 5rem;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.half{
+    height: 50%;
+    display: flex;
+    flex-direction: column; /* Keeps items in a column */
+    justify-content: center; /* Centers items vertically */    
+}
