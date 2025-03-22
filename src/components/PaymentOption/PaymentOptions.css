@@ -17,15 +17,20 @@
   margin: 1rem;
 }
 
-.total{
+.result{
+  display: block;
   margin: 1rem;
-  display: flex;
 }
 
-.left{
+.total{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.leftTot{
   text-align: left;
 }
 
-.right{
+.rightTot{
   text-align: right;
 }
