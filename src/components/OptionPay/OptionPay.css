@@ -19,6 +19,16 @@
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot2{
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
 }
 
 .grid{
@@ -34,12 +44,18 @@
     .dot{
         background-color: var(--accent-200);
     }
+    .dot2{
+        background-color: var(--secondary-700);
+    }
 }
 
 .select{
     background-color: var(--primary-800);
     .dot{
         background-color: var(--accent-50);
+    }
+    .dot2{
+        background-color: var(--secondary-900);
     }
 }
 
@@ -55,11 +71,17 @@
     .dot{
         background-color: var(--accent-100);
     }
+    .dot2{
+        background-color: var(--accent-700);
+    }
 }
 
 .grid:active{
     background-color: var(--primary-700);
     .dot{
         background-color: var(--accent-50);
+    }
+    .dot2{
+        background-color: var(--accent-800);
     }
 }

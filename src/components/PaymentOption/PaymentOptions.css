@@ -1,9 +1,18 @@
 .select-plan {
-    display: block;
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
     width: 40%;
     background-color: var(--primary-300);
     color: var(--text-50);
     border-radius: 10px;
+}
+
+.interior{
+  width: 95%;
+  height: 95%;
+  background-color: var(--primary-200);
+  border-radius: 10px;
 }
 
 .separador{

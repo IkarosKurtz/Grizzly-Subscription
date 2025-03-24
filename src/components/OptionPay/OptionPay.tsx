@@ -14,7 +14,9 @@ export function OptionPay({SubType,Cost,isSelected,onSelect}:SubCost & {isSelect
             onSelect()
         }}>
                 <div className='left'>
-                <span className='dot'></span>
+                <span className='dot'>
+                    <span className='dot2'></span>
+                </span>
             </div>
             <div className='right'>
                 <div className='half'>
