@@ -25,7 +25,7 @@ export function PaymentOptions(){
 
             <div className="result">
                 <h3>{subType}</h3>
-                <div className="total">
+                <div className={`total ${selected===-1 ? "hide" : ""}`}>
                     <h3 className="leftTot">Total</h3>
                     <h3 className="rightTot">{cost} / Month</h3>
                 </div>

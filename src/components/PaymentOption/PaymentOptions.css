@@ -34,3 +34,7 @@
 .rightTot{
   text-align: right;
 }
+
+.hide{
+  display: none;
+}
