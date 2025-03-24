@@ -18,17 +18,29 @@
 .dot{
     height: 2rem;
     width: 2rem;
-    background-color: var(--accent-200);
     border-radius: 50%;
 }
 
 .grid{
-    background-color: var(--primary-500);
     height: 5rem;
     width: 90%;
     margin: 2% 5% 2% 5%;
     display: flex;
     border-radius: 10px;
+}
+
+.no-select{
+    background-color: var(--primary-500);
+    .dot{
+        background-color: var(--accent-200);
+    }
+}
+
+.select{
+    background-color: var(--primary-800);
+    .dot{
+        background-color: var(--accent-50);
+    }
 }
 
 .half{
