@@ -65,3 +65,16 @@
   gap: 1em;
   padding: 0.5em 0;
 }
+
+
+@media (width <=500px) {
+  .select-plan {
+    width: 100%;
+  }
+}
+
+@media (width <=830px) {
+  .select-plan {
+    width: 80%;
+  }
+}
