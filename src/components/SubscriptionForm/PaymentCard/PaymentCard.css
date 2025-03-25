@@ -1,0 +1,27 @@
+.subscription-form-payment-card-container {
+  display: flex;
+  gap: .5em;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1em;
+  border: 2px solid var(--secondary-400);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.subscription-form-payment-card-container>p {
+  font-size: 1.1rem;
+  font-weight: 600
+}
+
+.subscription-form-payment-card-separator {
+  border: 1px solid var(--secondary-400);
+  height: 70%;
+}
+
+@media (width <=580px) {
+  .subscription-form-payment-card-container {
+    width: 80%;
+    align-self: center;
+  }
+}

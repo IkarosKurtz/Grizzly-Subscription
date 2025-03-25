@@ -1,0 +1,96 @@
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 70%;
+  overflow-y: auto;
+  gap: 1em;
+  padding: 2em;
+}
+
+.subscription-form-payment {
+  display: flex;
+  flex-direction: column;
+  margin-top: -1em;
+  padding-bottom: 1em;
+}
+
+.subscription-form-payment>div {
+  display: flex;
+  color: var(--text-800);
+  gap: 1em;
+  height: 5rem;
+}
+
+
+.subscription-form-address {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em;
+  width: 80%;
+  align-self: left;
+  justify-content: space-around;
+}
+
+.subscription-controllers {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 1fr;
+}
+
+.subscription-controllers button {
+  background-color: var(--primary-200);
+  color: var(--text-900);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1em 1.3em;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.17s ease-in-out, transform 0.17s ease-in-out;
+
+  &:hover {
+    background-color: var(--primary-400);
+    transform: scale(1.02);
+  }
+
+  &:active {
+    background-color: var(--primary-600);
+    transform: scale(1);
+  }
+}
+
+@media (width <=830px) {
+  .subscription-container {
+    gap: 1em;
+    width: 100%;
+  }
+
+  .subscription-form {
+    width: 100%;
+  }
+
+  .subscription-controllers {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (width <=580px) {
+  .subscription-form-address {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+  }
+
+  .subscription-form-payment>div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: fit-content;
+  }
+}
