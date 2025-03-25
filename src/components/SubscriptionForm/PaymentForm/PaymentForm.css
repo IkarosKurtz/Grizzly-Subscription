@@ -15,13 +15,12 @@
   padding-bottom: 1em;
 }
 
-.subscription-form-payment>div {
+.subscription-form-payment > div {
   display: flex;
   color: var(--text-800);
   gap: 1em;
   height: 5rem;
 }
-
 
 .subscription-form-address {
   display: grid;
@@ -48,7 +47,9 @@
   border-radius: 10px;
   cursor: pointer;
   border: none;
-  transition: background-color 0.17s ease-in-out, transform 0.17s ease-in-out;
+  transition:
+    background-color 0.17s ease-in-out,
+    transform 0.17s ease-in-out;
 
   &:hover {
     background-color: var(--primary-400);
@@ -87,7 +88,7 @@
     width: 100%;
   }
 
-  .subscription-form-payment>div {
+  .subscription-form-payment > div {
     display: flex;
     flex-direction: column;
     gap: 1em;

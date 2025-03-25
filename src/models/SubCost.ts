@@ -1,5 +1,4 @@
-
-export interface SubCost{
-    SubType : string,
-    Cost : number
+export interface SubCost {
+  SubType: string
+  Cost: number
 }

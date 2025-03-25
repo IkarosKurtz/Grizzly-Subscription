@@ -1,6 +1,6 @@
 .subscription-form-payment-card-container {
   display: flex;
-  gap: .5em;
+  gap: 0.5em;
   align-items: center;
   justify-content: center;
   padding: 0 1em;
@@ -9,9 +9,9 @@
   cursor: pointer;
 }
 
-.subscription-form-payment-card-container>p {
+.subscription-form-payment-card-container > p {
   font-size: 1.1rem;
-  font-weight: 600
+  font-weight: 600;
 }
 
 .subscription-form-payment-card-separator {

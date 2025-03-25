@@ -1,4 +1,4 @@
-import './Placeholder.css'
+import "./Placeholder.css"
 
 export function Placeholder() {
   return (

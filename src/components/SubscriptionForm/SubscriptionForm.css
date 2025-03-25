@@ -8,7 +8,9 @@
 .accept-button {
   color: var(--text-50) !important;
   background-color: var(--primary-500) !important;
-  transition: background-color 0.17s ease-in-out, transform 0.17s ease-in-out;
+  transition:
+    background-color 0.17s ease-in-out,
+    transform 0.17s ease-in-out;
 
   &:hover {
     background-color: var(--primary-600) !important;
