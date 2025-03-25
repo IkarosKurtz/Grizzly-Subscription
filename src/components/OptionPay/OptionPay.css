@@ -6,82 +6,45 @@
   height: 100%;
 }
 
-.right {
-  width: 85%;
+
+.option-card {
+  width: 90%;
   display: flex;
-  flex-direction: column; /* Keeps items in a column */
-  justify-content: center; /* Centers items vertically */
-  gap: 0.2rem; /* Adjust spacing between "Pay" and "Costo" */
-  margin: 0%;
+  align-items: center;
+  gap: 1em;
+  border-radius: 10px;
+  padding: 1em 2em;
+  color: var(--text-50);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 3rem;
+}
+
+.right h4,
+.right h5 {
+  margin: 0;
 }
 
 .dot {
-  height: 2rem;
-  width: 2rem;
-  border-radius: 50%;
+  background-color: var(--background-50);
+  width: 29px;
+  height: 29px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.dot2 {
-  height: 1.3rem;
-  width: 1.3rem;
-  border-radius: 50%;
-}
-
-.grid {
-  height: 5rem;
-  width: 90%;
-  margin: 2% 5% 2% 5%;
-  display: flex;
-  border-radius: 10px;
-}
-
-.no-select {
+.check {
   background-color: var(--primary-500);
-  .dot {
-    background-color: var(--accent-200);
-  }
-  .dot2 {
-    background-color: var(--secondary-700);
-  }
+  width: 21px;
+  height: 21px;
 }
 
-.select {
-  background-color: var(--primary-800);
-  .dot {
-    background-color: var(--accent-50);
-  }
-  .dot2 {
-    background-color: var(--secondary-900);
-  }
-}
-
-.half {
-  height: 50%;
-  display: flex;
-  flex-direction: column; /* Keeps items in a column */
-  justify-content: center; /* Centers items vertically */
-}
-
-.grid:hover {
-  background-color: var(--primary-600);
-  .dot {
-    background-color: var(--accent-100);
-  }
-  .dot2 {
-    background-color: var(--accent-700);
-  }
-}
-
-.grid:active {
-  background-color: var(--primary-700);
-  .dot {
-    background-color: var(--accent-50);
-  }
-  .dot2 {
-    background-color: var(--accent-800);
-  }
+.dot,
+.check {
+  border-radius: 50%;
 }

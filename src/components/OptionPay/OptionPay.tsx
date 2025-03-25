@@ -1,7 +1,8 @@
 import "./OptionPay.css"
-import "../../models/SubCost"
+
 import { SubCost } from "../../models/SubCost"
 import { useCostContext } from "../../Context/useCostContext"
+import { motion } from "framer-motion"
 
 export function OptionPay({
   SubType,
@@ -12,27 +13,31 @@ export function OptionPay({
   const { setCost, setSubType } = useCostContext()
 
   return (
-    <div
-      className={`grid ${isSelected ? "select" : "no-select"}`}
+    <motion.div
+      animate={{
+        backgroundColor: isSelected
+          ? "var(--primary-800)"
+          : "var(--primary-500)",
+        scale: isSelected ? 1.04 : 1,
+      }}
+      className={`option-card `}
       onClick={() => {
         setCost(Cost)
         setSubType(SubType)
         onSelect()
       }}
     >
-      <div className="left">
-        <span className="dot">
-          <span className="dot2"></span>
-        </span>
+      <div className="dot">
+        <motion.div
+          className="check"
+          animate={{ scale: isSelected ? 1 : 0 }}
+          transition={{ duration: 0.3 }}
+        />
       </div>
       <div className="right">
-        <div className="half">
-          <h4>Pay {SubType}</h4>
-        </div>
-        <div className="half">
-          <h5>${Cost} / Month / Member</h5>
-        </div>
+        <h4>Pay {SubType}</h4>
+        <h5>${Cost} / Month / Member</h5>
       </div>
-    </div>
+    </motion.div>
   )
 }

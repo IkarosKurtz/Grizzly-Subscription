@@ -1,10 +1,13 @@
 .select-plan {
-  display: flex; /* Enables flexbox */
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
+  display: flex;
+  /* Enables flexbox */
+  justify-content: center;
+  /* Centers horizontally */
+  align-items: center;
+  /* Centers vertically */
   width: 40%;
   background-color: var(--primary-300);
-  color: var(--text-50);
+  color: var(--text-950);
   border-radius: 10px;
 }
 
@@ -13,6 +16,8 @@
   height: 95%;
   background-color: var(--primary-200);
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .separador {
@@ -31,6 +36,10 @@
   margin: 1rem;
 }
 
+.result h3 {
+  margin: .5;
+}
+
 .total {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -46,4 +55,13 @@
 
 .hide {
   display: none;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: .5em 0;
 }
