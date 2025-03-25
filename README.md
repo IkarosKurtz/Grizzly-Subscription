@@ -99,15 +99,15 @@ This was a project that was created for improvement and learning purposes.
 
 **Thanks to all the contributors who have helped make this project!**
 
-<a href="https://github.com/MauriRiver345/WhatDoesItMean/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MauriRiver345/WhatDoesItMean" />
+<a href="https://github.com/IkarosKurtz/Grizzly-Subscription/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=IkarosKurtz/Grizzly-Subscription" />
 </a>
 
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-[contributions]: https://img.shields.io/github/contributors/MauriRiver345/WhatDoesItMean?style=for-the-badge
-[commits]: https://img.shields.io/github/commit-activity/t/MauriRiver345/WhatDoesItMean?style=for-the-badge
-[repo-size]: https://img.shields.io/github/repo-size/MauriRiver345/WhatDoesItMean?style=for-the-badge
+[contributions]: https://img.shields.io/github/contributors/IkarosKurtz/Grizzly-Subscription?style=for-the-badge
+[commits]: https://img.shields.io/github/commit-activity/t/IkarosKurtz/Grizzly-Subscription?style=for-the-badge
+[repo-size]: https://img.shields.io/github/repo-size/IkarosKurtz/Grizzly-Subscription?style=for-the-badge
 [typescript]: https://img.shields.io/badge/Typescript-blue?style=for-the-badge&logo=Typescript&logoColor=white
 [react]: https://img.shields.io/badge/React-blue?style=for-the-badge&logo=React&logoColor=white
 [vite]: https://img.shields.io/badge/Vite-8A2BE2?style=for-the-badge&logo=Vite&logoColor=white
