@@ -47,7 +47,7 @@ export function PaymentCard({
         className="subscription-form-payment-card-container"
         onClick={() => onSelect(type)}
       >
-        <Icon size={50} />
+        <Icon size={43} />
         {isSelected === type && (
           <>
             <motion.div
